@@ -11,8 +11,6 @@ public class StudySpringBoot implements Serializable {
     @Column
     private String createTime;
 
-
-
     public String getId() {
         return id;
     }

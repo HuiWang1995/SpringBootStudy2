@@ -9,9 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = "com.wlh.study")
 @EntityScan(basePackages = "com.wlh.study")
 public class Study2Application {
-
     public static void main(String[] args) {
         SpringApplication.run(Study2Application.class, args);
     }
-
 }
